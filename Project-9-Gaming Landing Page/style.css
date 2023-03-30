@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./Assets/Photos/futuristic-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 0rem 5.4rem;
+}
+.navbar-container{
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid aqua; */
+}
+.navbar-container,.nav-menu,.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin-bottom: .5rem;
+
+}
+.navbar-container>.logo>img{
+    width:6.5rem;
+    cursor: pointer;
+}
+.nav-menu{
+    width: 80%;
+    height:60px;
+}
+.nav-menu .list li{
+    list-style: none;
+    padding-right:30px;
+}
+.nav-menu .list li a{
+    text-decoration: none;
+    color:#d9d6d6;
+    font-size: .7rem;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease-in-out;
+}
+.nav-menu .list li a:hover{
+    color:rgb(255, 68, 0);
+}
+.nav-menu .login-btn a{
+    padding: 8px 20px;
+    background-color: rgb(213, 111, 74);
+    /* border-radius: 20px; */
+    /* border: 1px solid rgb(70, 148, 238); */
+    transition: .4s ease;
+    text-decoration: none;
+    color: #f5f3f3;
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+.nav-menu .login-btn a:hover{
+    background-color: transparent;
+    border:1px solid rgb(253, 7, 7);
+}
+.nav-menu .login-btn p{
+    color: #e6e6e6;
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.nav-menu .login-btn p:hover{
+    color: rgb(249, 6, 6);
+}
+.nav-menu .login-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero-container{
+    width: 100%;
+    padding: 4rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.hero-container .left h1{
+    color: #fff;
+    font-weight:600;
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    /* word-spacing:px; */
+    line-height:3.2rem;
+}
+.hero-container .left p{
+    color:#bab8b8;
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    word-spacing: 2px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.hero-container>.left>.h-btn>a{
+    text-decoration: none;
+    font-family:poppins;
+    font-size: .8rem;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: rgb(213, 111, 74);
+    /* border-radius: 20px; */
+    border: 1px solid #fff;
+    transition: .4s ease; 
+}
+.hero-container>.left>.h-btn>a:hover{
+    background-color: transparent;
+    border: 1px solid rgb(255, 183, 0);
+}
+.hero-container>.left>.h-btn .btn-2{
+    background-color: transparent;
+    margin-left:20px;
+}
+.hero-container>.left>.h-btn{
+    margin-top: 2.5rem;
+}
+.hero-container>.right>img{
+    width:4rem;
+    padding-top: 5rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .2s ease-in-out;
+}
+.hero-container>.right>img:hover{
+    transform: translateY(0px);
+}
+.hero-container>.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 5rem;
+    width: 40%;
+    height:65vh;
+    /* padding-bottom: 5rem; */
+    /* margin-bottom: 4rem; */
+}
+.hero-container .right .king{
+    display: flex;
+    flex-direction: row;
+    /* margin-top:1rem; */
+    /* border: 1px solid red; */
+    width:100%;
+    /* justify-content: space-between; */
+}
+.hero-container .right .king .img-1{
+    width:2rem;
+    padding-bottom: 3.4rem;
+    margin-left: 3.5rem;
+}
+.hero-container .right .king p{
+    color: #f5f3f3;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.hero-container .right .king .img-2{
+    width:3rem;
+    display: inline-block;
+    margin-top: 4rem;
+}
+/* ----------------------------Main Section------------------------ */
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5.5rem;
+}
+section main .text{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:8rem 0 0 0;
+}
+section main .text h1{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* -----------------------Rating Card------------------------------------- */
+section main .rating-card{
+    width: 100%;
+    /* min-height: 100vh; */
+    /* border: 1px solid red; */
+    margin: 2.5rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rating-card .card1,.card2,.card3,.card4{
+    width: 210px;
+    height: 260px;
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position:80% 30%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    transform:translateY(5px);
+    transition: .2s ease-in-out;
+}
+.rating-card .card1:hover,.card2:hover,.card3:hover,.card4:hover{
+   transform:translateY(0px);
+    opacity: 1;
+}
+.rating-card .card1 .rating1,.card2 .rating2,.card3 .rating3,.card4 .rating4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 30%;
+    padding: 0 .6rem;
+    transform: translateY(5px);
+    opacity: 0;
+    /* background-color: #565555e4; */
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(20px);
+    transition: .4s;
+}
+.rating-card .card1 .rating1:hover,.card2 .rating2:hover,.card3 .rating3:hover,.card4 .rating4:hover{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.rating-card .card1 .rating1 .text1 h4,.card2 .rating2 .text2 h4,.card3 .rating3 .text3 h4,.card4 .rating4 .text4 h4{
+    color: #f5f3f3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    margin-bottom: 2px;
+}
+.rating-card .card1 .rating1 .text1 p,.card2 .rating2 .text2 p,.card3 .rating3 .text3 p,.card4 .rating4 .text4 p{
+    color: #c9c9c9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .7rem;
+    margin-bottom: 2px;
+}
+.rating-card .card1 .rating1 .text1 img,.card2 .rating2 .text2 img,.card3 .rating3 .text3 img,.card4 .rating4 .text4 img{
+    width: .7rem;
+}
+.rating-card .card1 .rating1 .btn1,.card2 .rating2 .btn2,.card3 .rating3 .btn3,.card4 .rating4 .btn4{
+    padding:5px 10px 7px 10px;
+    background-color:rgb(207, 92, 50);
+}
+.rating-card .card1 .rating1 .btn1 a,.card2 .rating2 .btn2 a,.card3 .rating3 .btn3 a,.card4 .rating4 .btn4 a{
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .7rem;
+    text-decoration: none;
+
+}
+.rating-card .card2{
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: center;
+}
+.rating-card .card3{
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position:48%;
+}
+.rating-card .card4{
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+}
+/* --------------------------War Game Section---------------------------- */
+.war-game{
+    width: 100%;
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 5rem;
+    margin-bottom: 5rem;
+
+}
+.war-game .war-img{
+    width: 40%;
+    height:55vh;
+    background-image: url(./Assets/Photos/Rectangle\ 57.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transform: translateY(5px);
+    transition: .2s ease-in-out;
+}
+.war-game .war-img:hover{
+    transform: translateY(0);
+}
+.war-game .war-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.war-game .war-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size:11px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #888787;
+}
+.war-game .war-text .war-btn a:nth-child(1){
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem 1.5rem;
+    background-color: rgb(205, 90, 49);
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 500;
+    transition: .4s ease-in-out;
+}
+.war-game .war-text .war-btn a:nth-child(1):hover{
+    color: rgb(205, 90, 49) ;
+    background-color: transparent;
+    border: 2px solid  rgb(205, 90, 49) ;
+}
+.war-game .war-text .war-btn a:nth-child(2){
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem 1.5rem;
+    background-color:transparent;
+    font-size: .7rem;
+    color: rgb(205, 90, 49);
+    border: 2px solid rgb(205, 90, 49);
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .4s ease-in-out;
+}
+.war-game .war-text .war-btn a:nth-child(2):hover{
+    color: #fff;
+    background-color:rgb(205, 90, 49);
+}
+.war-game .war-text .war-btn{
+    margin-top: 2rem;
+}
+/* ----------------------------Recommend Game Section--------------------------- */
+.game-text{
+    width: 100%;
+    margin-top:6rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+.game-text .arrow img:nth-child(1){
+    padding: 1rem .7rem;
+    width: 3rem;
+    background-color: rgb(255, 218, 218);
+}
+.game-text .arrow img:nth-child(2){
+    padding: 1rem .7rem;
+    width: 3rem;
+    background-color: rgb(244, 108, 45);
+    margin-left: 8px;
+}
+/* -------------------------------Game Card Grid------------------------------------ */
+.game-grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin-bottom: 4rem;
+}
+.game-grid .game1,.game2,.game3,.game4{
+    width: 430px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 4.5rem;
+}
+.game-grid .game1 .g-img-1 img,.game2 .g-img-2 img,.game3 .g-img-3 img,.game4 .g-img-4 img{
+    width: 11rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .3s ease-in-out;
+}
+.game-grid .game1 .g-img-1 img:hover,.game2 .g-img-2 img:hover,.game3 .g-img-3 img:hover,.game4 .g-img-4 img:hover{
+    transform: translateY(0px);
+}
+.game-grid .game1 .game1-text h4,.game2 .game2-text h4,.game3 .game3-text h4,.game4 .game4-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
+.game-grid .game1 .game1-text p:nth-child(2),.game2 .game2-text p:nth-child(2),.game3 .game3-text p:nth-child(2),.game4 .game4-text p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: rgb(244, 108, 45);
+    font-weight: 500;
+    margin-top: .3rem;
+}
+.game-grid .game1 .game1-text p:nth-child(3),.game2 .game2-text p:nth-child(3),.game3 .game3-text p:nth-child(3),.game4 .game4-text p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    /* color: rgb(244, 108, 45); */
+    font-weight: 500;
+    margin-top: .5rem;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+    color: #767676;
+}
+.game-grid .game1 .game1-text a,.game2 .game2-text a,.game3 .game3-text a,.game4 .game4-text a{
+    text-decoration: none;
+    padding: .6rem 1.6rem;
+    color: #f5f4f4;
+    background-color: rgb(224, 86, 59) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    transition: .4s ease-in-out;
+}
+.game-grid .game1 .game1-text a:hover,.game2 .game2-text a:hover,.game3 .game3-text a:hover,.game4 .game4-text a:hover{
+    background-color: rgb(6, 122, 171);
+}
+/* ---------------------------Most Played Game Section------------------------- */
+.footer{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5.5rem;
+    background-color: #000000;
+}
+.footer .most{
+    /* border: 1px solid red; */
+    padding: 2.8rem 0;
+}
+.footer .most h1{
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+.game-img {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+.game-img .left img{
+    width: 18rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .left img:hover{
+    transform: translateY(0px);
+}
+.footer .game-img{
+    background-image: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    background-size:42rem;
+    background-position: 110% 35%;
+    z-index: -1;
+}
+.game-img .right p{
+   color: #b0afaf;
+   font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   line-height: 22px;
+   margin-bottom: 3.8rem;
+   margin-top: 3rem;
+}
+.game-img .right img:nth-child(2){
+    width:14rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .right img:nth-child(2):hover{
+    transform: translateY(0px);
+}
+.game-img .right img:nth-child(3){
+    width: 13rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .right img:nth-child(3):hover{
+    transform: translateY(0px);
+}
+.gamer{
+    background-image:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url(./Assets/Photos/Rectangle\ 606.png);
+    background-repeat: no-repeat;
+    background-size:70rem;
+    margin-top: 5rem;
+    background-position:40%;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.gamer .gamer-text{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamer .gamer-text h1{
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+   font-size: 1.8rem;
+   text-align: center;
+}
+.gamer .gamer-text p{
+    color: #afaeae;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   text-align: center;
+   margin-top: .9rem;
+   margin-bottom: 1.8rem;
+}
+.gamer .gamer-text a{
+    text-decoration: none;
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    padding: .6rem 1.5rem;
+    background-color:  rgb(224, 86, 59);
+    transition: .3s ease-in-out;
+}
+.gamer .gamer-text a:hover{
+    background-color:rgba(208, 218, 12, 0.576);
+}
+/* ------------------------Footer----------------------------------------- */
+footer{
+    background-color: #000000;
+    padding: 4rem 5.5rem 1.5rem 5.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+footer .footer-logo img{
+    width: 6rem;
+    cursor: pointer;
+}
+footer .footer-logo p{
+    color: #afaeae;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   margin-top: 1rem;
+   line-height: 1.3rem;
+   margin-bottom: 1rem;
+   cursor: pointer;
+}
+footer .footer-logo .social-logo img{
+    width: 1.8rem;
+    margin-left:.3rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .2s ease-in-out;
+}
+footer .footer-logo .social-logo img:hover{
+    transform: translateY(0px);
+}
+footer .footer-menu h4{
+    color: #f3f2f2;
+    font-family: 'Poppins', sans-serif;
+   font-size: .8rem;
+   font-weight: 500;
+   margin-bottom: 1rem;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+footer .footer-menu h4:hover{
+    color: rgba(222, 14, 14, 0.729);
+}
+footer .footer-menu p{
+    color: #929090;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   font-weight: 500;
+   line-height: 1.6rem;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+footer .footer-menu p:hover{
+    color: rgba(255, 0, 0, 0.917);
+}
