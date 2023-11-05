@@ -1,0 +1,404 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+/*............header..................*/
+.header{
+display: flex;
+background-color:#e74694 ;
+background-image: url("assets/asset\ 32.png");
+padding: 21px;
+background-size: 300px;
+justify-content:center;
+color:white;
+}
+
+
+/*...............nav bar..............*/
+.nav{
+display: flex;
+justify-content:space-between;
+margin-left: 10%;
+margin-right: 18%;
+margin-top: 20px;;
+}
+.lnav img{
+width: 180px;
+}
+.list{
+display :flex;
+list-style-type: none;
+column-gap: 20px;
+font-size: 20px;
+}
+.button
+{
+background-color:#2294ed ;
+color:white;
+border-color:#2294ed;
+border-width: 1px;
+border-radius: 5px;
+width: 80px;
+height: 40px;
+}
+/*..............section1...............*/
+.section1{
+display:flex;
+margin-left: 10%;
+margin-right: 18%;
+margin-top: 80px;
+justify-content: space-between;
+}
+.rsection1 img{
+width: 600px;
+position:relative;
+left: 90px;
+}
+
+.lsection1{
+margin-top: 60px;
+}
+.lsection1 h1{
+
+font-size: 48px;
+
+
+}
+.lsection1 p{
+margin-top: 30px;
+font-size: 20px;
+
+}
+.lsection1 button{
+margin-top: 30px;
+background-color: #2294ed;
+border-color: #2294ed;
+border-radius: 5px;
+width: 150px;
+height: 60px;
+color:white;
+}
+/*.................section-2................*/
+.section2{
+margin-top: 50px;
+position: relative;
+left: 400px;
+font-size: 18px;
+}
+/*...................section-3...................*/
+.companies{
+display: flex;
+list-style: none;
+justify-content: space-between;
+margin-left: 10%;
+margin-right: 18%;
+margin-top: 15px;
+
+
+}
+.img{
+
+height: 52px;
+}
+/*....................section-4.........*/
+.sec4{
+margin-top: 150px;
+}
+.divbtn{
+background-color: white;
+color:black;
+border-color: #2294ed;
+border-radius: 9px;
+width: 150px;
+position: relative;
+left: 700px;
+height: 45px;
+margin-top: 25px;
+}
+
+.topdiv{
+position: relative;
+left: 500px;
+font-size: 34px;
+}
+
+
+.flex4{
+display: flex;
+margin-top: 60px;
+margin-left: 10%;
+margin-right: 18%;
+justify-content: space-evenly;
+position: relative;
+left: 180px;
+}
+
+.font{
+font-size: 25px;
+}
+.flex4 button{
+background-color: white;
+color:black;
+border-color: #2294ed;
+border-radius: 9px;
+width: 150px;
+position: relative;
+
+height: 45px;
+margin-top: 25px;
+}
+
+
+
+
+
+
+.flex41{
+
+margin-top: 50px;
+display: flex;
+margin-left: 10%;
+margin-right: 18%;
+justify-content: space-evenly;
+position: relative;
+left: 180px;
+}
+.flex41 button{
+
+background-color: white;
+color:black;
+border-color: #2294ed;
+border-radius: 9px;
+width: 150px;
+position: relative;
+height: 45px;
+margin-top: 25px;
+}
+.water{
+background-image: url("assets/asset\ 34.png");
+
+background-size: 10px;
+}
+/*....................section5.................*/
+.sec5{
+display: flex;
+margin-left: 10%;
+margin-right: 18%;
+margin-top: 80px;
+}
+.sec5 img{
+
+height: 50%;
+}
+
+.sec5p2{
+
+position: relative;
+right: 45%;
+}
+.s1{
+margin-bottom: 20px;
+font-size: 18px;
+width: 200px;
+height: 21px;
+}
+.s2{
+font-size: 32px;
+width: 300px;
+}
+.s3{
+margin-top: 30px;
+font-size: 20px;
+width: 450px;
+
+}
+.s4{
+
+margin-top: 30px;
+}
+.s5{
+font-size: 18px;
+margin-top: 30px;
+width: 320px;
+}
+/*....................section-6.................*/
+.sec6{
+display: flex;
+position: relative;
+bottom: 400px;
+margin-left: 10%;
+margin-right: 18%;
+
+}
+.sec6 img{
+height: 50%;
+position: relative;
+left: 200px;
+
+
+}
+
+.t1{
+
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+.t2{
+font: size 32px; ;
+margin-bottom: 20px;
+}
+
+.t3{
+
+font-size: 20px;
+margin-bottom: 20px;
+width: 450px;
+
+}
+
+.t4{
+margin-bottom: 20px;
+font-size: 25px;
+}
+.t5{
+font-size: 18px;
+width: 350px;
+
+}
+/*.................section-7...........*/
+.sec7{
+display: flex;
+margin-left: 10%;
+margin-right: 18%;
+position: relative;
+bottom: 800px;
+}
+.sec7 img{
+height: 50%;
+position: relative;
+bottom: 50px;
+}
+
+.sec72{
+
+position: relative;
+right: 450px;
+}
+
+.u1{
+font-size:18px;
+margin-bottom: 20px;
+width: 200px;
+
+}
+.u2{
+margin-bottom: 20px;
+}
+.u3{
+font-size:20px ;
+margin-bottom: 20px;
+width: 420px;
+
+}
+
+.u4{
+font-size:14px;
+margin-bottom: 30px;
+background-color: red;
+color: whitesmoke;
+width: 125px;
+height: 20px;
+
+}
+
+.u5{
+font-size: 18px;
+width: 320px;
+
+}
+
+/*..................section-8....................*/
+.sec8{
+
+position: relative;
+bottom: 1300px;
+position: relative;
+left:40%
+}
+.sec8 p{
+
+font-size: 40px;
+
+}
+.sec8 button{
+position: relative;
+left: 200px;
+background-color:white;
+border-color: #2294ed;
+padding: 8px;
+}
+
+/*................section-9....................*/
+.sec9{
+margin-left: 10%;
+margin-right: 18%;
+position: relative;
+bottom: 1200px;
+display: flex;
+display: flex;
+justify-content: space-around;
+position: relative;
+left: 50px;
+}
+.re{
+
+height: 300px;
+}
+
+/*..................section 10..............*/
+.sec10{
+position: relative;
+bottom: 1150px;
+left:40%;
+}
+.sec10 h1{
+
+font-size: 34px;
+}
+
+.sec10 p{
+position: relative;
+margin-top: 50px;
+font-size: 16px;
+
+}
+.sec10 button{
+
+margin-top: 50px;
+background-color: #2294ed;
+color:white;
+width: 180px;
+height: 40px;
+border-radius: 4px;
+border-color: #2294ed;
+position: relative;
+left: 20px;
+}
+/*...............footer............*/
+.footer{
+margin-left: 10%;
+margin-right: 18%;
+display: flex;
+position: relative;
+bottom: 1100px;
+justify-content:space-around;
+background-color: #ebf2fa;
+width: 1000px;
+
+}
+
+.footer img{
+height: 30px;
+}
